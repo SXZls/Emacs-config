@@ -4,7 +4,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(custom-enabled-themes '(tango-dark))
  '(display-line-numbers-type 'relative)
  '(package-selected-packages '(geiser-chez paredit racket-mode sly))
  '(tool-bar-mode nil))
@@ -14,7 +13,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Consolas" :foundry "outline" :slant normal :weight regular :height 120 :width normal)))))
-
+;; Default dark theme
+(set-background-color "#002B36")
+(set-foreground-color "white")
 ;;;;;;;;;;;;;;;;;;
 ;; package source
 ;;;;;;;;;;;;;;;;;;
@@ -162,5 +163,6 @@
 (add-to-list 'auto-mode-alist '("\\.lsp\\'" . lisp-mode))
 (add-to-list 'auto-mode-alist '("\\.cl\\'" . lisp-mode))
 (add-to-list 'auto-mode-alist '("\\.asd\\'" . lisp-mode))
+
 
 
