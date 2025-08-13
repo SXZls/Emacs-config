@@ -4,13 +4,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(custom-enabled-themes '(wheatgrass))
- '(custom-safe-themes
-   '("f032261307dad7fcaf2c6820358e3f452d1502982a626f5cb12b09bc06c6219d"
-     "a08b3c153baa2e328536c991e3e44ab7db3387e0220be9994931d4572dacf76e"
-     default))
+ '(custom-enabled-themes '(tango-dark))
  '(display-line-numbers-type 'relative)
- '(package-selected-packages nil)
+ '(package-selected-packages '(geiser-chez paredit racket-mode sly))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -37,12 +33,15 @@
 (desktop-save-mode 1)
 (setq desktop-path'("~/.emacs.d/desktop"))
 
+;;revert
+(global-auto-revert-mode t)
+
 ;;basic function
 (electric-pair-mode 1)
 (use-package which-key
   :ensure t
   :config (which-key-mode))
-(global-set-key (kbd "M-/") 'hipie-expand)
+
 
 (require 'eglot)
 ;;;;;;;;;;;;;;;;
@@ -51,16 +50,6 @@
 (add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd"))
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
-
-;;;;;;;;;;;;
-;; org-mode
-;;;;;;;;;;;;
-;; The following lines are always needed. Choose your own keys.
-(add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
-(add-hook 'org-mode-hook 'turn-on-font-lock) ; not needed when global-font-lock-mode is on
-(global-set-key "\C-cl" 'org-store-link)
-(global-set-key "\C-ca" 'org-agenda)
-(global-set-key "\C-cb" 'org-iswitchb)
 
 ;;;;;;;;;;;;
 ;; paredit to lisp
@@ -84,7 +73,7 @@
   (setq geiser-chez-library "chez")
   ;; repl config
   (setq geiser-repl-history-filename "~/.emacs.d/history/chez-history")
-  (setq geiser-mode-start-repl-p t)
+  (setq geiser-mode-start-repl-p nil)
   (setq geiser-repl-query-on-kill-p nil)
   ;; chez start file
   (setq geiser-chez-init-file "~/.chezscheme.rc")
@@ -174,5 +163,4 @@
 (add-to-list 'auto-mode-alist '("\\.cl\\'" . lisp-mode))
 (add-to-list 'auto-mode-alist '("\\.asd\\'" . lisp-mode))
 
-(message "minimal SLY configuration loaded. Use C-c s to start SLY.")
 
