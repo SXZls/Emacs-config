@@ -12,9 +12,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Consolas" :foundry "outline" :slant normal :weight regular :height 120 :width normal)))))
+ '(default ((t (:family "Unifont" :foundry "outline" :slant normal :weight regular :height 139 :width normal)))))
 ;; Default dark theme
-(set-background-color "#002B36")
+(set-background-color "black")
 (set-foreground-color "white")
 ;;;;;;;;;;;;;;;;;;
 ;; package source
@@ -163,6 +163,7 @@
 (add-to-list 'auto-mode-alist '("\\.lsp\\'" . lisp-mode))
 (add-to-list 'auto-mode-alist '("\\.cl\\'" . lisp-mode))
 (add-to-list 'auto-mode-alist '("\\.asd\\'" . lisp-mode))
+
 
 
 
