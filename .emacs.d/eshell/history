@@ -1,0 +1,13 @@
+emacs --debug-init
+hx
+hx main.c
+gcc -std=c99 -Wall prompt.c -o prompt
+gcc -std=c99 -Wall prompt.c -o prompt
+gcc -std=c99 -Wall prompt.c -o prompt
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+cd -
+cd --

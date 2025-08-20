@@ -1,0 +1,6 @@
+try.scm
+}{
+(compile-file "try.scm")
+}{
+(make-boot-file "try.out" '("prtite") "try.so")
+}{

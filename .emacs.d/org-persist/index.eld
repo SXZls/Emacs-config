@@ -1,0 +1,2 @@
+;;   -*- mode: lisp-data; -*-
+((:container ((elisp org-element--headline-cache) (elisp org-element--cache) (version "2.3")) :persist-file "dc/4ce347-f80a-46d9-a33b-8214d808e589" :associated (:hash "814aa6981ba05db8debe0b93fbdfb17f" :file "c:/Users/DELL/AppData/Roaming/.emacs" :inode 27021597764235839) :expiry 30 :last-access 1755239233.40727 :last-access-hr "2025-08-15T14:27:13+0800") (:container ((index "3.2")) :persist-file "9b/49b272-ffea-450c-b351-9064a27676d7" :associated nil :expiry never :last-access 1748703570.7446 :last-access-hr "2025-05-31T22:59:30+0800"))
