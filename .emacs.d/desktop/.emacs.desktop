@@ -1,0 +1,103 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Oct 18 22:52:28 2025
+;; Desktop file format version 208
+;; Emacs version 30.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (26867 43436 341123 0) (desktop . "208") "DELL@DESKTOP-QUL7420" nil nil ((((minibuffer . t) (undecorated) (skip-taskbar) (font . "-outline-Unifont-medium-normal-normal-*-20-*-*-*-p-*-iso8859-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 6) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "white") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha-background) (alpha) (menu-bar-lines . 1) (tab-bar-lines . 0) (height . 32) (tool-bar-lines . 0) (inhibit-double-buffering) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 21) (scroll-bar-height . 21) (fullscreen) (z-group) (visibility . t) (scroll-bar-foreground . "systemscrollbar") (scroll-bar-background) (display-type . color) (background-mode . dark) (cursor-color . "white") (font-parameter) (environment) (last-focus-update . t) (frameset--id . "9BF0-7235-A13F-7368") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (width . 78) (left . 896) (top . 131)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 100) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 21) (min-pixel-width-safe . 20)) leaf (pixel-width . 796) (pixel-height . 651) (total-width . 80) (total-height . 31) (normal-height . 1.0) (normal-width . 1.0) (buffer ".emacs.d" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 566) (start . 1)) (prev-buffers ("toy.scm" 14689 15026) ("init.el" 1 1) ("lisp" 1 811) ("problem_4.cpp" 1 79) ("*scratch*" 1 1) (".emacs.d" 1 566) ("*Messages*" 74 74))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("display" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("winmain" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("dimension" 0 9 (isearch-case-fold-search t isearch-regexp-function nil)) #("di" 0 2 (isearch-case-fold-search t isearch-regexp-function nil)) #("dimen" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("Dimension" 0 9 (isearch-case-fold-search nil isearch-regexp-function nil)) #("handler" 0 7 (isearch-case-fold-search nil isearch-regexp-function nil)) #("cu" 0 2 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/init.el" "d:/learn/lisp" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-racket.el" "~/.emacs.d/lisp/init-clisp.el" "~/.xemacs" "~/.emacs.d/lisp/init-scheme.el" "d:/learn/tinyrenderer/geometry.h" "d:/learn/tinyrenderer/model.cpp" "d:/learn/tinyrenderer/model.h" "d:/learn/tinyrenderer/tgaimage.cpp" "d:/learn/tinyrenderer/main.cpp" "d:/learn/euler/tinyrenderer/shell.bat" "d:/learn/euler/tinyrenderer/build.bat" "d:/learn/euler/tinyrenderer/main.cpp" "d:/learn/euler/tinyrenderer/tgaimage.h" "d:/learn/tinyrenderer" "d:/learn/handmade/build.bat" "d:/learn/handmade/misc/shell.bat" "d:/learn/handmade/misc/debug.bat" "d:/learn/handmade/build.bat" "d:/learn/handmade/code/win32_handmade.cpp" "d:/learn/handmade/misc/emacs.bat" "d:/learn/handmade/misc/4ed.bat" "d:/learn/handmade/misc/shell.bat" "d:/learn/handmade/code/shell.bat" "d:/learn/handmade/code/win32_handmade.cpp" "d:/learn/handmade/misc/win32_handmade.sln" "d:/learn/handmade/misc/debug.bat" "d:/learn/handmade/build.bat" "d:/learn/coder/misc/shell.bat" "d:/learn/coder/win32_handmade.cpp" "~/.emacs.d/lisp/init-custom.el" "d:/learn/euler/math.org" "d:/learn/euler/problem_4.cpp" "~/.emacs.d/early-init.el" "d:/learn/lisp/e.el" "d:/learn/e.el" "~/.xemacs" "~/.emacs" "~/.xemacs" "~/.emacs.d/site-lisp/try.org" "~/.remacs" "~/" "~/.emacs.d/lisp/init-package.el" "~/.emacs.d/lisp/init-funcs.el" "~/.emacs.d/lisp/init-custom.el" "~/.emacs.d/lisp/init-const.el" "~/.emacs.d/lisp/init-site-lisp.el" "~/.emacs.d/lisp/init-utils.el" "~/.emacs.d/init.el" "~/.emacs.d/early-init.el" "~/.emacs.d" "d:/learn/lisp/e.el" "d:/learn/euler/" "d:/learn/euler/problem_3.cpp" "d:/learn/euler/problem_2.cpp" "d:/learn/euler/problem_1.scm" "d:/learn/euler/problem_1.cpp" "d:/learn/euler/" "d:/learn/euler/1.cpp" "d:/learn/molisp/mpc.c" "d:/learn/molisp/parsing.c" "d:/learn/molisp/prompt.c" "d:/learn/molisp/" "d:/learn/molisp/prompt_windows.c" "d:/learn/game.cpp" "d:/learn/tiger/src/main.cpp" "d:/learn/tiger/src/sysy.y" "d:/learn/tiger/src/sysy.l" "d:/learn/tiger/src/main.cpp" "d:/learn/tiger/src" "d:/learn/tiger/src/CMakeLists.txt" "d:/learn/tiger/src/CMakelists.txt" "d:/learn/tiger/CMakeLists.txt" "d:/learn/learc/src/main.c" "d:/learn/try.org" "d:/learn/try.cpp" "d:/learn/test.org" "d:/learn/try.org" "d:/learn/lisp" "~/learn/lisp" "d:/learn/lisp" "d:/learn/lisp/toy.scm" "~/.emacs.d/theme/sanityinc_solarized.el" "d:/learn/lisp/zabrak.rkt" "d:/learn/lisp/toy.scm" "d:/learn/raycasting/raycaster_flat.cpp" "d:/learn/lisp/music.scm" "d:/Engine/Sunny/src/Sunny/Core.h" "d:/Engine/Sunny/Sandbox/src/Application.cpp" "d:/Engine/Sunny/" "d:/Engine/Sunny/Core.h" "d:/Engine/Sunny/src/Sunny/Core.h" "d:/engine/sunny/Sunny.sln" "~/.emacs" "d:/learn/lisp/toy.so" "d:/learn/lisp/engine.cl" "~/.emacs.d/themes/naysayer-theme.el" "~/.emacs.d/themes/naysayer.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(font-lock-mode)
+  566
+  '(nil nil)
+  t
+  '("c:/Users/DELL/AppData/Roaming/.emacs.d/")
+  '((buffer-display-time 26867 43350 882739 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/learn/lisp/toy.scm"
+  "toy.scm"
+  'scheme-mode
+  '(font-lock-mode eldoc-mode geiser-autodoc-mode geiser-mode paredit-mode)
+  15026
+  '(14931 nil)
+  nil
+  nil
+  '((buffer-display-time 26867 40413 766764 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (14931 14628 14498 14626 14515 14553 14553 14553 14553 14553 14553 14553 14553 14553 14553 15218))))
+
+(desktop-create-buffer 208
+  "c:/Users/DELL/AppData/Roaming/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(font-lock-mode eldoc-mode)
+  896
+  '(1512 nil)
+  nil
+  nil
+  '((buffer-display-time 26866 9647 579610 0) (buffer-file-coding-system . prefer-utf-8-dos))
+  '((mark-ring (1512 1686 1686 1669))))
+
+(desktop-create-buffer 208
+  nil
+  "lisp"
+  'dired-mode
+  '(font-lock-mode)
+  811
+  '(nil nil)
+  t
+  '("d:/learn/lisp/")
+  '((buffer-display-time 26863 47033 570904 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/learn/euler/problem_4.cpp"
+  "problem_4.cpp"
+  'c++-mode
+  '(font-lock-mode)
+  79
+  '(80 t)
+  nil
+  nil
+  '((buffer-display-time 26863 47024 868910 0) (buffer-file-coding-system . chinese-iso-8bit-dos))
+  '((mark-ring (1 58 39 21 20 1 1 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  nil
+  "Roaming"
+  'dired-mode
+  '(font-lock-mode)
+  1775
+  '(1719 nil)
+  t
+  '("c:/Users/DELL/AppData/Roaming/")
+  '((buffer-display-time 26858 7933 478826 0))
+  '((mark-ring (1719 4550 4550 5698))))
+
+(desktop-create-buffer 208
+  "d:/learn/euler/math.org"
+  "math.org"
+  'org-mode
+  '(font-lock-mode)
+  55
+  '(55 t)
+  nil
+  nil
+  '((tab-width . 8) (buffer-display-time 26866 11178 823352 0) (buffer-file-coding-system . chinese-iso-8bit-dos) (truncate-lines . t))
+  '((mark-ring (1 54 1 2 2 55 16 43 54 1 55))))
+

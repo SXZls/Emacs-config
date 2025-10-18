@@ -1,0 +1,49 @@
+emacs --debug-init
+hx
+hx main.c
+gcc -std=c99 -Wall prompt.c -o prompt
+gcc -std=c99 -Wall prompt.c -o prompt
+gcc -std=c99 -Wall prompt.c -o prompt
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+gcc -std=c99 -Wall parsing.c mpc.c -o parsing
+cd -
+cd --
+ls
+winget upgrade
+winget upgrade SBCL.SBCL
+winget upgrade Fastfetch-cli.Fastfetch
+fastfetch
+g++ -o main main.cpp
+winget update
+winget update
+ls
+exit
+winget upgrade
+winget upgrade
+winget upgrade
+scoop update *
+winget upgrade
+clear
+scoop search mono
+scoop search julia-mono
+scoop search maple-mono
+scoop search Mono
+scoop search font
+scoop search nerd-fonts
+scoop bucket add nerd-fonts
+scoop bucket add nerd-fonts
+winget upgrade
+scoop update *
+quit
+exit
+winget upgrade
+winget upgrade Tencet.WeChat.Universal
+winget upgrade Tencent.WeChat.Universal
+winget upgrade
+exit
+cl
+quit
+exit

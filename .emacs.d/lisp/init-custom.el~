@@ -1,0 +1,22 @@
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Unifont" :foundry "GNU" :slant normal :weight regular :height 120 :width normal)))))
+(set-background-color "black")
+(set-foreground-color "white")
+
+;;;;;;;;;;;;;;;;;;
+;; package source
+;;;;;;;;;;;;;;;;;;
+(require 'package)
+(setq package-archives '(("gnu"."https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+	         ("melpa"."https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+	         ("nongnu"."https://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
+	         ("org"."https://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
+
+
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+
+(provide 'init-custom)

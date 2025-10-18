@@ -1,0 +1,11 @@
+*
+!/.emacs.d/
+!/.gitignore
+.emacs.d/eln-cache/
+.emacs.d/auto-save-list/
+.emacs.d/*.elc
+.emacs,d/*~
+.emacs.d/\#*\#
+.emacs.d/.\#*
+.emacs.d/url/
+.emacs.d/cache/
